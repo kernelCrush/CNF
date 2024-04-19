@@ -1,7 +1,7 @@
 # CNF
-Containerized Network Functions
+##Containerized Network Functions
 
-Firewall
+###Firewall
 1. Build the docker image\
 ```docker build -t firewall-image .```
 

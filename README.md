@@ -22,4 +22,4 @@
 ```nc -l localhost 8001```
 
 4. Connect to the load balancer running on port 8080. This will randomly connect to one of the 2 web servers at the backend\
-```curl localhost:8080``
+```curl localhost:8080```

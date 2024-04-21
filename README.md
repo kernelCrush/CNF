@@ -18,8 +18,8 @@
 ```docker run -d --network host load_balancer```
 
 3. Run 2 servers on 8000 and 8001 using the following commands\
-```nc -l localhost 8000```
+```nc -l localhost 8000```\
 ```nc -l localhost 8001```
 
 4. Connect to the load balancer running on port 8080. This will randomly connect to one of the 2 web servers at the backend\
-```curl localhost:8080```
+```curl localhost:8080``
